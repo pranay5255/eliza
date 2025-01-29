@@ -1,0 +1,200 @@
+{
+    "projects": [
+        {
+            "name": "Aerodrome Finance",
+            "description": "A next-generation decentralized exchange (DEX) serving as the central liquidity hub for the Base network. It offers low-slippage token swaps and incentivizes liquidity providers with AERO tokens."
+        },
+        {
+            "name": "Moonwell Finance",
+            "description": "An open lending and borrowing DeFi protocol operating on Base, Moonbeam, and Moonriver networks. It simplifies DeFi lending and borrowing, emphasizing security and transparency."
+        },
+        {
+            "name": "BuilderFi",
+            "description": "A SocialFi platform on Base that allows developers to monetize their knowledge through a Q&A marketplace, earning cryptocurrency by sharing expertise."
+        },
+        {
+            "name": "Backed Finance",
+            "description": "A Swiss startup that bridges real-world assets onto the blockchain by issuing tokens representing traditional financial assets like stocks and bonds, fully collateralized and compliant with Swiss regulations."
+        },
+        {
+            "name": "Echelon Prime",
+            "description": "A platform leveraging blockchain technology to enhance gaming experiences, integrating decentralized finance features and focusing on interoperable systems within the Web3 ecosystem."
+        },
+        {
+            "name": "Degen Chain",
+            "description": "A Layer-3 blockchain built on Base, designed for the DEGEN token, supporting a range of decentralized applications from DeFi to NFTs, with rapid adoption and significant transactional volumes."
+        },
+        {
+            "name": "Cartesi",
+            "description": "A blockchain infrastructure project offering application-specific rollups that run a Linux operating system, enabling developers to build more complex and computationally intensive decentralized applications."
+        },
+        {
+            "name": "MetaStreet",
+            "description": "A decentralized interest rate protocol focused on bridging NFTs and DeFi to enable scaled liquidity routing for NFT collateral, enhancing accessibility and efficiency in financial services."
+        },
+        {
+            "name": "Grand Base (GB)",
+            "description": "A decentralized market for spot synthetic real-world assets (RWAs), enabling users to trade tokenized versions of traditional financial instruments on the blockchain."
+        },
+        {
+            "name": "frok (FROK)",
+            "description": "An AI-powered platform for Web3 research and communication, assisting users in navigating the complexities of decentralized technologies through intelligent insights and tools."
+        },
+        {
+            "name": "GAMER (GMR)",
+            "description": "A community of gamers creating innovative Web3 tools and gaming NFTs, fostering the integration of gaming and blockchain technologies to enhance player experiences."
+        },
+        {
+            "name": "BaseswapFi",
+            "description": "A leading decentralized exchange (DEX) on the Base Chain, offering a wide range of functionalities from basic swaps to more intricate financial services, holding a significant portion of the network's total value locked."
+        },
+        {
+            "name": "RocketSwapLabs",
+            "description": "A community-driven DEX on the Base Mainnet, progressing towards becoming community-owned through a decentralized autonomous organization (DAO), with plans to introduce the first launchpad within the Base environment."
+        },
+        {
+            "name": "Synthswap",
+            "description": "A decentralized exchange (DEX) in the Base ecosystem, utilizing an automated market-maker (AMM) model, with plans for a futures trading platform and upcoming v3, aiming to provide efficient and user-friendly trading experiences."
+        },
+        {
+            "name": "kravtrade",
+            "description": "A decentralized Quanto perpetual exchange on Base, facilitating BTC trades with the added advantage of using altcoins as collateral, offering leveraged trading opportunities within the Base ecosystem."
+        },
+        {
+            "name": "MagnateFi",
+            "description": "A novel lending protocol on Base, introducing a dynamic interest rate model coupled with robust risk management strategies, enabling users to lend, borrow, and accrue interest with ease."
+        },
+        {
+            "name": "DackieSwap",
+            "description": "A native decentralized exchange (DEX) on Base, offering users enhanced rewards via its Concentrated Liquidity Market Maker (CLMM), aiming to provide efficient and rewarding trading experiences within the Base community."
+        },
+        {
+            "name": "Virtual Protocol (VIRTUAL)",
+            "description": "An AI agent ecosystem on Base that empowers users to create, monetize, and scale tokenized AI agents. It provides tools for designing agents, earning revenue, and distributing agents across social media platforms."
+        },
+        {
+            "name": "Ai16z (AI16Z)",
+            "description": "An investment DAO on Base that utilizes AI to revolutionize venture capital. It features an AI agent inspired by venture capitalist Marc Andreessen, making token investment decisions through AI and collective intelligence."
+        },
+        {
+            "name": "Arc (ARC)",
+            "description": "A project on Base offering a framework for building portable, modular, and lightweight AI agents. Developed in Rust, it aims to enhance the capabilities of AI agents within the blockchain ecosystem."
+        },
+        {
+            "name": "aixbt by Virtuals (AIXBT)",
+            "description": "An AI-driven platform for cryptocurrency market intelligence, aimed at providing token holders with a competitive advantage in the fast-paced crypto environment. It utilizes sophisticated narrative detection and analysis to streamline the monitoring and interpretation of market trends, enabling users to extract actionable insights."
+        },
+        {
+            "name": "GAME by Virtuals (GAME)",
+            "description": "A project within the Virtuals ecosystem focusing on integrating AI agents into gaming platforms, enhancing player experiences through intelligent interactions and personalized content."
+        },
+        {
+            "name": "sekoia by Virtuals (SEKOIA)",
+            "description": "An AI agent within the Virtuals ecosystem designed to provide advanced data analysis and insights, assisting users in making informed decisions in various domains, including finance and technology."
+        },
+        {
+            "name": "POLY by Virtuals (POLY)",
+            "description": "An AI agent focused on facilitating cross-chain interactions and interoperability within the Virtuals ecosystem, aiming to enhance the seamless integration of various blockchain platforms."
+        },
+        {
+            "name": "nomAI by Virtuals (NOMAI)",
+            "description": "An AI agent dedicated to natural language processing and understanding, enabling more intuitive and human-like interactions within the Virtuals ecosystem."
+        },
+        {
+            "name": "Base Name Service (BNS)",
+            "description": "A decentralized naming system on the Base blockchain, allowing users to register and manage human-readable names for their Base addresses, enhancing the user experience within the ecosystem."
+        },
+        {
+            "name": "Farcaster",
+            "description": "An Ethereum-based social dApp ecosystem offering infrastructure for censorship-resistant social applications, enabling users to engage in discussions and share content in a decentralized environment."
+        },
+        {
+            "name": "Onchain Gaias",
+            "description": "An NFT collection on the Base blockchain featuring unique, hand-drawn digital artworks, each representing a distinct character inspired by mythology and fantasy themes."
+        },
+        {
+            "name": "Based Punks",
+            "description": "A derivative NFT collection on the Base blockchain, inspired by the original CryptoPunks, offering pixel art characters with unique traits and attributes, fostering a vibrant community of collectors and traders."
+        },
+        {
+            "name": "BaseDAO",
+            "description": "A decentralized autonomous organization framework built specifically for the Base ecosystem, enabling communities to create and manage DAOs with advanced governance features and treasury management capabilities."
+        },
+        {
+            "name": "BasePay",
+            "description": "A payment protocol on Base that enables instant, low-cost transactions and cross-border payments, integrating with both traditional finance and DeFi protocols to provide comprehensive payment solutions."
+        },
+        {
+            "name": "BaseStarter",
+            "description": "A launchpad platform for new projects building on Base, providing tools for token launches, initial DEX offerings (IDOs), and community building, with a focus on fair and transparent token distribution."
+        },
+        {
+            "name": "BaseOracle",
+            "description": "A decentralized oracle network specifically designed for the Base ecosystem, providing reliable price feeds and external data to DeFi applications and smart contracts."
+        },
+        {
+            "name": "BaseVault",
+            "description": "A yield optimization platform on Base that automates yield farming strategies across multiple protocols, helping users maximize their returns while minimizing gas costs and complexity."
+        },
+        {
+            "name": "BaseBridge",
+            "description": "A cross-chain bridge solution enabling seamless asset transfers between Base and other major blockchain networks, with a focus on security and efficiency."
+        },
+        {
+            "name": "BaseStats",
+            "description": "A comprehensive analytics platform providing real-time data and insights about the Base ecosystem, including protocol metrics, user activity, and market trends."
+        },
+        {
+            "name": "DAOs.World",
+            "description": "A pioneering DAO infrastructure platform on Base that simplifies DAO creation and management through an intuitive interface. It offers customizable governance frameworks, secure treasury management, and tools for decentralized collaboration."
+        },
+        {
+            "name": "Friend.tech",
+            "description": "A social platform on Base that enables users to tokenize their social capital through 'friend shares', creating micro-communities with exclusive access and governance rights, pioneering a new model of social DAOs."
+        },
+        {
+            "name": "Degen.Protocol",
+            "description": "A community-driven protocol on Base that combines DeFi and social elements, featuring governance mechanisms for protocol decisions and treasury management through the DEGEN token."
+        },
+        {
+            "name": "0x",
+            "description": "Your one stop shop to build financial products on crypto rails. Enable faster trading, better prices and superior UX in your app."
+        },
+        {
+            "name": "0xPPL",
+            "description": "A web3 social platform enabling you to follow or interact with onchain activities of your peers & discover trends in a human-readable feed. Access your multi-chain portfolio across EVMs, Solana, Cosmos, and TON."
+        },
+        {
+            "name": "0xSplits",
+            "description": "A set of simple, modular smart contracts for safe and efficient onchain payments. You can split revenue from NFT sales, recoup expenses, diversify an income stream, withhold taxes, and much more."
+        },
+        {
+            "name": "1rpc",
+            "description": "A private RPC relay that eradicates metadata exposure and leakage, allowing users to gain control of their interactions with the blockchain with a one-click user experience."
+        },
+        {
+            "name": "Aave",
+            "description": "A non-custodial liquidity protocol where users can participate as suppliers, borrowers, or liquidators, earning interest on supplied assets and borrowing in an overcollateralized manner."
+        },
+        {
+            "name": "Across Protocol",
+            "description": "A leading cross-chain token bridge secured by UMA's optimistic oracle, optimized for capital efficiency with a single liquidity pool, competitive relayer landscape, and no-slippage fee model."
+        },
+        {
+            "name": "Add3",
+            "description": "EVM smart contract creation and management for web3 projects - Use Add3 to deploy customizable & compliant web3 smart contract products, dapp & analytics in minutes with code or no-code options."
+        },
+        {
+            "name": "Alien Base",
+            "description": "The Base-native decentralized exchange ecosystem for trading blue chip assets and derivatives, with Area 51 for experimental tokens, predictions and lotteries."
+        },
+        {
+            "name": "AlfaFrens",
+            "description": "A SocialFi app on Farcaster for gated alfa chat subscriptions powered by Superfluid. Subscribe to creators with $DEGEN, earn $ALFA and stake it on creators for a share of their revenue."
+        },
+        {
+            "name": "Algebra",
+            "description": "An AMM providing modular concentrated liquidity (V4) with dynamic fees and hooks to DEXes on Base."
+        }
+    ]
+}

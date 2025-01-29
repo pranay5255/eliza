@@ -1,88 +1,110 @@
-# AI Stablecoin Project Status Based on Eliza Components
+# Project Status: AI16z & Trust Engine Implementation
 
-## Available Core Infrastructure
+## Directory Structure Update
+```
+eliza/
+├── src/
+│   ├── contracts/
+│   │   ├── core/
+│   │   │   ├── TrustMarketplace.sol
+│   │   │   └── AIAgentRegistry.sol
+│   │   ├── governance/
+│   │   │   └── TrustToken.sol
+│   │   ├── interfaces/
+│   │   │   ├── ITrustMarketplace.sol
+│   │   │   ├── ITrustToken.sol
+│   │   │   └── IAIAgentRegistry.sol
+│   │   ├── types/
+│   │   │   ├── TrustMarketplace.ts
+│   │   │   └── AIAgentRegistry.ts
+│   │   └── abis/
+│   │       ├── TrustMarketplace.json
+│   │       └── AIAgentRegistry.json
+│   ├── agents/
+│   │   ├── AIMarc.ts
+│   │   └── DegenAI.ts
+│   ├── trust-engine/
+│   │   ├── TrustEngine.ts
+│   │   └── interfaces/
+│   │       └── ITrustScore.ts
+│   └── tee/
+│       ├── SecureExecution.ts
+│       └── interfaces/
+│           └── ITEEClient.ts
+├── scripts/
+│   ├── deploy/
+│   │   ├── deploy-contracts.ts
+│   │   └── verify-contracts.ts
+│   └── tasks/
+│       └── register-agents.ts
+└── test/
+    ├── contracts/
+    │   ├── TrustMarketplace.test.ts
+    │   └── AIAgentRegistry.test.ts
+    └── integration/
+        └── agent-trust-flow.test.ts
+```
 
-### Database Adapters
-- ✅ PostgreSQL adapter with vector search support
-- ✅ SQLite adapter with basic functionality
-- ✅ SQL.js adapter for browser environments
-- ✅ Vector embedding storage and search capabilities
-- ✅ Caching system for database operations
+## Implementation Status
 
-### AI/Agent Framework
-- ✅ Multi-agent simulation framework
-- ✅ Support for multiple AI models (OpenAI, Claude, local models)
-- ✅ Configurable character/personality system
-- ✅ Action execution framework
-- ✅ Regular interval evaluation system
-- ✅ Memory and context management
-- ✅ Goal tracking and management
+1. Smart Contracts (src/contracts)
+- Core contracts implemented:
+  * TrustMarketplace.sol (✓)
+  * AIAgentRegistry.sol (✓)
+  * TrustToken.sol (✓)
+- Interfaces defined:
+  * ITrustMarketplace.sol (✓)
+  * ITrustToken.sol (✓)
+  * IAIAgentRegistry.sol (TODO)
 
-### Social Integration
-- ✅ Twitter/X integration for posting updates
-- ✅ Discord integration
-- ✅ Multi-platform client architecture
-- ✅ Message formatting and handling
+2. TypeScript Implementation
+- Trust Engine:
+  * TrustEngine.ts (✓)
+  * ITrustScore.ts (✓)
+  * Score calculation and normalization (✓)
+  * Leaderboard management (✓)
+- TEE Integration:
+  * SecureExecution.ts (✓)
+  * ITEEClient.ts (✓)
+  * Attestation verification (✓)
+- AI Agents:
+  * AIMarc.ts (✓)
+  * DegenAI.ts (TODO)
 
-### Documentation
-- ✅ Multi-language support (translations available)
-- ✅ Community contribution guidelines
-- ✅ API documentation
-- ✅ Integration test framework
+3. Testing Infrastructure
+- Contract Tests (TODO)
+- Integration Tests (TODO)
+- Agent Simulation Tests (TODO)
 
-## Missing Components (Need to be Built)
+4. Deployment Scripts
+- Basic deployment script (✓)
+- Contract verification (TODO)
+- Environment configuration (TODO)
 
-### Blockchain Integration
-- ❌ Smart contract interaction layer
-- ❌ EOA transaction automation
-- ❌ Web3 library integration
-- ❌ Private key management system
-- ❌ Blockchain event listeners
+## Next Steps
 
-### Stablecoin Specific
-- ❌ Internal stabilization logic
-- ❌ Mint/burn decision rules
-- ❌ Supply management algorithms
-- ❌ Parameter adjustment system
-- ❌ Token contract implementation
+1. Technical Implementation
+- Complete IAIAgentRegistry interface
+- Implement DegenAI agent
+- Add contract tests
+- Create deployment configurations
 
-### Testing Framework Extensions
-- ❌ Blockchain-specific testing tools
-- ❌ Stablecoin simulation framework
-- ❌ Economic model testing suite
+2. Integration Tasks
+- Jupiter DEX integration
+- Phala Network TEE setup
+- Cross-chain messaging
+- Governance implementation
 
-## Integration Points
+3. Documentation & Testing
+- API documentation
+- Integration guides
+- User guides
+- Security documentation
+- Test coverage
 
-Eliza provides a solid foundation for:
-1. AI decision-making engine
-2. Social media communications
-3. Data persistence and caching
-4. Scheduled task execution
-5. Plugin architecture for extending functionality
+4. Dependencies
+- Add package.json with required dependencies
+- Configure hardhat.config.ts
+- Set up development environment
 
-The project would need to build:
-1. Blockchain interaction layer
-2. Stablecoin-specific logic
-3. Custom testing framework for financial operations
-4. Smart contract deployment and management tools
-
-## Development Status
-
-### Ready to Use
-- Base agent framework
-- Database infrastructure
-- Social media integration
-- Documentation system
-- Testing framework
-
-### Needs Development
-- Blockchain integration components
-- Stablecoin-specific logic
-- Economic simulation tools
-- Smart contract infrastructure
-
-### Next Steps
-1. Implement blockchain adapter using Eliza's plugin architecture
-2. Develop stablecoin-specific agent behaviors
-3. Create economic simulation environment
-4. Build smart contract deployment and management tools
+See userflow.md for detailed user interaction flows and system behavior.
